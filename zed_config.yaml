@@ -1,0 +1,48 @@
+%YAML:1.0
+
+# ZED Camera Configuration
+Camera.type: "PinHole"
+Camera.fps: 30
+Camera.RGB: 1
+
+# ZED VGA (672x376)
+Camera.width: 672
+Camera.height: 376
+
+# (LEFT_CAM_VGA)
+Camera.fx: 268.635
+Camera.fy: 268.6825
+Camera.cx: 333.455
+Camera.cy: 185.2345
+
+# Distortion parameters
+Camera.k1: 0.0
+Camera.k2: 0.0
+Camera.p1: 0.0
+Camera.p2: 0.0
+Camera.k3: 0.0
+
+Camera.bf: 32.226  # Focal length in pixels
+
+# Thresholds
+ThDepth: 40.0
+DepthMapFactor: 1.0
+
+# Parameters for ORB Extractor
+ORBextractor.nFeatures: 1000
+ORBextractor.scaleFactor: 1.2
+ORBextractor.nLevels: 8
+ORBextractor.iniThFAST: 20
+ORBextractor.minThFAST: 7
+
+# Visualization Parameters
+Viewer.KeyFrameSize: 0.05
+Viewer.KeyFrameLineWidth: 1
+Viewer.GraphLineWidth: 0.9
+Viewer.PointSize: 2
+Viewer.CameraSize: 0.08
+Viewer.CameraLineWidth: 3
+Viewer.ViewpointX: 0
+Viewer.ViewpointY: -0.7
+Viewer.ViewpointZ: -1.8
+Viewer.ViewpointF: 500
